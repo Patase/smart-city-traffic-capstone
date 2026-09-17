@@ -1,0 +1,4 @@
+hour,average_traffic,observations,end_hour,day_type,weather
+21,2601.0855263157896,152,22,Weekday,Rain
+20,2784.0068027210887,147,21,Weekday,Rain
+19,3276.042944785276,163,20,Weekday,Rain
