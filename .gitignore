@@ -3,3 +3,10 @@
 __pycache__/
 *.pyc
 ~$*
+
+# Virtual environment (1.1GB - never commit)
+part3_machine_learning/.venv/
+
+# Model binaries exceed GitHub's 100MB file limit; regenerate with the scripts
+part3_machine_learning/models/*.joblib
+part3_machine_learning/mlartifacts/
