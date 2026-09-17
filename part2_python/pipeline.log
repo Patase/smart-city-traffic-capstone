@@ -1,0 +1,59 @@
+2026-09-17 22:50:51,806 | INFO | pipeline | Data loaded successfully: 48204 rows, 9 columns
+2026-09-17 22:50:51,807 | INFO | pipeline | Schema validation successful.
+2026-09-17 22:50:51,819 | INFO | pipeline | No inconsistent values found in 'holiday'.
+2026-09-17 22:50:51,833 | INFO | pipeline | No inconsistent values found in 'weather_main'.
+2026-09-17 22:50:51,853 | WARNING | pipeline | 1730 values in 'weather_description' were standardised (whitespace/case); unique categories 38 -> 37.
+2026-09-17 22:50:51,862 | INFO | pipeline | Date/time validation completed: no invalid dates found.
+2026-09-17 22:50:51,887 | WARNING | pipeline | 17 duplicate rows were removed.
+2026-09-17 22:50:51,890 | WARNING | pipeline | 4 temperature value(s) at 0 K in month 1 were imputed with that month's median (266.83 K).
+2026-09-17 22:50:51,891 | WARNING | pipeline | 6 temperature value(s) at 0 K in month 2 were imputed with that month's median (266.51 K).
+2026-09-17 22:50:51,898 | WARNING | pipeline | 1 rainfall value(s) above 9000 mm were imputed using the median rainfall value (0.00 mm).
+2026-09-17 22:50:51,898 | INFO | pipeline | Cleaning finished: 48187 rows, 9 columns.
+2026-09-17 22:50:52,024 | INFO | pipeline | Cleaned dataset saved successfully to: /Users/patarachaisereerat/smart-city-traffic-capstone/part2_python/data/cleaned_traffic.csv
+2026-09-17 23:17:16,936 | INFO | feature_engineering | Feature engineering started.
+2026-09-17 23:17:16,984 | INFO | feature_engineering | Cleaned data loaded successfully: 48187 rows, 9 columns
+2026-09-17 23:17:16,985 | INFO | feature_engineering | Dataset shape before feature engineering: 48187 rows, 9 columns.
+2026-09-17 23:17:16,988 | INFO | feature_engineering | Time features created: hour, day_of_week and is_weekend.
+2026-09-17 23:17:16,989 | INFO | feature_engineering | Cyclical time features created for hour and day of week.
+2026-09-17 23:17:16,998 | INFO | feature_engineering | Weather features created using a precipitation indicator and one-hot encoding of weather_main.
+2026-09-17 23:17:16,999 | INFO | feature_engineering | Temperature and rainfall were scaled using min-max scaling.
+2026-09-17 23:17:17,010 | INFO | feature_engineering | Congestion category created using traffic-volume quartiles: Low, Moderate, High and Very High.
+2026-09-17 23:17:17,010 | INFO | feature_engineering | Dataset shape after feature engineering: 48187 rows, 31 columns.
+2026-09-17 23:17:17,395 | INFO | feature_engineering | Engineered dataset saved successfully to: /Users/patarachaisereerat/smart-city-traffic-capstone/part2_python/data/engineered_traffic.csv
+2026-09-17 23:17:17,395 | INFO | feature_engineering | Feature engineering completed successfully.
+2026-09-17 23:38:21,632 | INFO | visualization | Traffic visualisation started.
+2026-09-17 23:38:21,740 | INFO | visualization | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-17 23:38:21,753 | INFO | visualization | 7612 repeated date_time rows were excluded from the visualisations to avoid counting the same hourly traffic volume more than once.
+2026-09-17 23:38:23,062 | INFO | visualization | Figure saved successfully to: /Users/patarachaisereerat/smart-city-traffic-capstone/part2_python/figures/traffic_by_hour.png
+2026-09-17 23:38:23,062 | INFO | visualization | Hourly traffic interpretation: the highest average traffic occurred at 16:00 with an average volume of 5708.61 vehicles.
+2026-09-17 23:38:23,364 | INFO | visualization | Figure saved successfully to: /Users/patarachaisereerat/smart-city-traffic-capstone/part2_python/figures/weekday_vs_weekend.png
+2026-09-17 23:38:23,365 | INFO | visualization | Weekday/weekend interpretation: weekday average traffic was 3557.44 vehicles and weekend average traffic was 2623.93 vehicles.
+2026-09-17 23:38:24,188 | INFO | visualization | Figure saved successfully to: /Users/patarachaisereerat/smart-city-traffic-capstone/part2_python/figures/temperature_vs_traffic.png
+2026-09-17 23:38:24,188 | INFO | visualization | Temperature/traffic interpretation: the Pearson correlation between temperature and traffic volume was 0.1395.
+2026-09-17 23:38:24,188 | INFO | visualization | Traffic visualisation completed successfully.
+2026-09-17 23:56:01,132 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-17 23:56:01,230 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-17 23:56:01,244 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
+2026-09-18 00:00:22,402 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-18 00:00:22,507 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-18 00:00:22,520 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
+2026-09-18 00:00:22,522 | INFO | cli_app | CLI command invoked: query | arguments: {'command': 'query', 'date': '2017-05-01', 'time': '08:00'}
+2026-09-18 00:00:22,524 | INFO | cli_app | CLI command completed successfully: query
+2026-09-18 00:00:30,139 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-18 00:00:30,229 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-18 00:00:30,243 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
+2026-09-18 00:00:30,245 | INFO | cli_app | CLI command invoked: query | arguments: {'command': 'query', 'date': '2017-06-01', 'time': '08:00'}
+2026-09-18 00:00:30,246 | INFO | cli_app | CLI command completed successfully: query
+2026-09-18 00:00:50,005 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-18 00:00:50,115 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-18 00:00:50,129 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
+2026-09-18 00:00:50,131 | INFO | cli_app | CLI command invoked: compare-days | arguments: {'command': 'compare-days'}
+2026-09-18 00:00:50,133 | INFO | cli_app | CLI command completed successfully: compare-days
+2026-09-18 00:01:31,777 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-18 00:01:31,881 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-18 00:01:31,894 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
+2026-09-18 00:01:31,896 | INFO | cli_app | CLI command invoked: high-traffic | arguments: {'command': 'high-traffic', 'threshold': 5500, 'limit': 10}
+2026-09-18 00:01:31,903 | INFO | cli_app | CLI command completed successfully: high-traffic
+2026-09-18 00:01:58,433 | INFO | cli_app | Traffic analytics CLI started.
+2026-09-18 00:01:58,533 | INFO | cli_app | Engineered data loaded successfully: 48187 rows, 31 columns
+2026-09-18 00:01:58,545 | INFO | cli_app | 7612 repeated date_time rows were excluded from CLI traffic queries.
