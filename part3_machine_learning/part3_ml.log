@@ -1,0 +1,174 @@
+2026-09-18 01:06:28,214 | INFO | supervised_ml | Supervised classification started.
+2026-09-18 01:06:28,321 | INFO | supervised_ml | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:06:28,327 | INFO | supervised_ml | Common feature set prepared: 23 features.
+2026-09-18 01:06:28,344 | INFO | supervised_ml | Train/test split completed: 38549 training rows, 9638 testing rows.
+2026-09-18 01:06:28,515 | INFO | supervised_ml | Logistic Regression trained.
+2026-09-18 01:06:29,090 | INFO | supervised_ml | Random Forest Classifier trained.
+2026-09-18 01:06:29,104 | INFO | supervised_ml | Logistic Regression evaluation completed.
+2026-09-18 01:06:29,189 | INFO | supervised_ml | Random Forest Classifier evaluation completed.
+2026-09-18 01:06:29,194 | INFO | supervised_ml | Classification results saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/classification_results.csv
+2026-09-18 01:06:29,194 | INFO | supervised_ml | Supervised classification completed successfully.
+2026-09-18 01:17:01,651 | INFO | regression | Supervised regression started.
+2026-09-18 01:17:01,746 | INFO | regression | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:17:01,750 | INFO | regression | Regression feature set prepared: 23 features.
+2026-09-18 01:17:01,755 | INFO | regression | Train/test split completed: 38549 training rows, 9638 testing rows.
+2026-09-18 01:17:01,778 | INFO | regression | Linear Regression trained.
+2026-09-18 01:17:04,874 | INFO | regression | Random Forest Regressor trained.
+2026-09-18 01:17:04,877 | INFO | regression | Linear Regression evaluation completed.
+2026-09-18 01:17:05,071 | INFO | regression | Random Forest Regressor evaluation completed.
+2026-09-18 01:17:05,075 | INFO | regression | Regression results saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/regression_results.csv
+2026-09-18 01:17:05,075 | INFO | regression | Supervised regression completed successfully.
+2026-09-18 01:25:05,549 | INFO | clustering | K-means clustering started.
+2026-09-18 01:25:05,653 | INFO | clustering | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:25:05,658 | INFO | clustering | Weather severity variable created.
+2026-09-18 01:25:05,666 | INFO | clustering | Clustering features prepared and standardised.
+2026-09-18 01:25:05,952 | INFO | clustering | K-means clustering completed with 4 clusters.
+2026-09-18 01:25:05,970 | INFO | clustering | Cluster summary created.
+2026-09-18 01:25:06,427 | INFO | clustering | Clustered dataset saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_clustered_data.csv
+2026-09-18 01:25:06,427 | INFO | clustering | Cluster summary saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_cluster_summary.csv
+2026-09-18 01:25:06,427 | INFO | clustering | K-means clustering completed successfully.
+2026-09-18 01:35:37,696 | INFO | clustering | K-means clustering started.
+2026-09-18 01:35:37,793 | INFO | clustering | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:35:37,798 | INFO | clustering | Weather severity variable created.
+2026-09-18 01:35:37,806 | INFO | clustering | Clustering features prepared and standardised.
+2026-09-18 01:35:38,129 | INFO | clustering | K-means clustering completed with 4 clusters.
+2026-09-18 01:35:38,139 | INFO | clustering | Cluster summary created.
+2026-09-18 01:35:39,542 | INFO | clustering | K-means hour vs traffic figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_hour_traffic.png
+2026-09-18 01:35:40,352 | INFO | clustering | K-means weather vs traffic figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_weather_traffic.png
+2026-09-18 01:35:40,719 | INFO | clustering | Clustered dataset saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_clustered_data.csv
+2026-09-18 01:35:40,719 | INFO | clustering | Cluster summary saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_cluster_summary.csv
+2026-09-18 01:35:40,719 | INFO | clustering | K-means clustering completed successfully.
+2026-09-18 01:39:57,573 | INFO | clustering | K-means clustering started.
+2026-09-18 01:39:57,671 | INFO | clustering | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:39:57,676 | INFO | clustering | Weather severity variable created.
+2026-09-18 01:39:57,684 | INFO | clustering | Clustering features prepared and standardised.
+2026-09-18 01:39:57,904 | INFO | clustering | K-means clustering completed with 4 clusters.
+2026-09-18 01:39:57,916 | INFO | clustering | Cluster summary created.
+2026-09-18 01:39:59,665 | INFO | clustering | K-means hour vs traffic figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_hour_traffic.png
+2026-09-18 01:40:00,491 | INFO | clustering | K-means weather vs traffic figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_weather_traffic.png
+2026-09-18 01:40:00,863 | INFO | clustering | Clustered dataset saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_clustered_data.csv
+2026-09-18 01:40:00,863 | INFO | clustering | Cluster summary saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/kmeans_cluster_summary.csv
+2026-09-18 01:40:00,863 | INFO | clustering | K-means clustering completed successfully.
+2026-09-18 01:43:12,155 | INFO | association_rules | Association rule mining started.
+2026-09-18 01:43:12,262 | INFO | association_rules | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:43:12,275 | INFO | association_rules | Categorical variables prepared for association rule mining.
+2026-09-18 01:43:12,927 | INFO | association_rules | Transactions created: 48187
+2026-09-18 01:43:12,960 | INFO | association_rules | Transactions encoded successfully.
+2026-09-18 01:43:13,001 | INFO | association_rules | Frequent itemsets found: 232
+2026-09-18 01:43:13,045 | INFO | association_rules | Association rules generated: 806
+2026-09-18 01:43:13,048 | INFO | association_rules | Congestion-predicting rules retained: 97
+2026-09-18 01:43:13,051 | INFO | association_rules | Association rules saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/association_rules.csv
+2026-09-18 01:43:13,051 | INFO | association_rules | Top association rules saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/top_association_rules.csv
+2026-09-18 01:43:13,054 | INFO | association_rules | Association rule mining completed successfully.
+2026-09-18 01:58:19,143 | INFO | deep_learning | Task 3 deep learning with explainability started.
+2026-09-18 01:58:19,236 | INFO | deep_learning | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 01:58:19,242 | INFO | deep_learning | Deep-learning feature set prepared: 23 features.
+2026-09-18 01:58:19,248 | INFO | deep_learning | Train/test split completed: 38549 training rows, 9638 testing rows.
+2026-09-18 01:58:26,950 | INFO | deep_learning | Neural network trained successfully.
+2026-09-18 01:58:26,977 | INFO | deep_learning | Neural network evaluation completed: MAE=291.35, R2=0.9409
+2026-09-18 01:58:26,980 | INFO | deep_learning | Neural-network results saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/neural_network_results.csv
+2026-09-18 01:58:27,795 | INFO | deep_learning | Neural-network loss figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/neural_network_loss.png
+2026-09-18 01:58:27,795 | INFO | deep_learning | Training comparable Random Forest model for SHAP explainability.
+2026-09-18 01:58:31,424 | INFO | deep_learning | Comparable Random Forest model trained.
+2026-09-18 01:58:31,425 | INFO | deep_learning | Calculating SHAP values using 1000 test records.
+2026-09-18 02:12:55,889 | INFO | deep_learning | SHAP summary figure saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/shap_summary.png
+2026-09-18 02:12:55,899 | INFO | deep_learning | SHAP feature importance saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/shap_feature_importance.csv
+2026-09-18 02:12:55,986 | INFO | deep_learning | Task 3 deep learning with explainability completed successfully.
+2026-09-18 02:16:39,081 | INFO | mlflow_tracking | Task 4 MLflow experiment tracking started.
+2026-09-18 02:19:32,218 | INFO | mlflow_tracking | Task 4 MLflow experiment tracking started.
+2026-09-18 02:19:33,128 | INFO | mlflow_tracking | New MLflow experiment created: Traffic_Volume_Regression
+2026-09-18 02:19:33,130 | INFO | mlflow_tracking | MLflow tracking database: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/mlflow.db
+2026-09-18 02:19:33,243 | INFO | mlflow_tracking | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 02:19:33,249 | INFO | mlflow_tracking | MLflow feature set prepared: 23 features.
+2026-09-18 02:19:33,250 | INFO | mlflow_tracking | Feature list saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/mlflow_features.txt
+2026-09-18 02:19:33,257 | INFO | mlflow_tracking | Train/test split completed: 38549 training rows, 9638 testing rows.
+2026-09-18 02:19:44,696 | INFO | mlflow_tracking | Linear Regression logged to MLflow: MAE=813.47, R2=0.7260
+2026-09-18 02:22:20,824 | INFO | mlflow_tracking | Task 4 MLflow experiment tracking started.
+2026-09-18 02:22:21,487 | INFO | mlflow_tracking | Existing MLflow experiment found: Traffic_Volume_Regression
+2026-09-18 02:22:21,489 | INFO | mlflow_tracking | MLflow tracking database: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/mlflow.db
+2026-09-18 02:22:21,606 | INFO | mlflow_tracking | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 02:22:21,612 | INFO | mlflow_tracking | MLflow feature set prepared: 23 features.
+2026-09-18 02:22:21,613 | INFO | mlflow_tracking | Feature list saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/mlflow_features.txt
+2026-09-18 02:22:21,622 | INFO | mlflow_tracking | Train/test split completed: 38549 training rows, 9638 testing rows.
+2026-09-18 02:22:31,343 | INFO | mlflow_tracking | Linear Regression logged to MLflow: MAE=813.47, R2=0.7260
+2026-09-18 02:22:44,383 | INFO | mlflow_tracking | Random Forest Regressor logged to MLflow: MAE=269.96, R2=0.9448
+2026-09-18 02:22:44,504 | INFO | mlflow_tracking | MLflow model comparison saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/mlflow_model_comparison.csv
+2026-09-18 02:22:44,511 | INFO | mlflow_tracking | Task 4 MLflow experiment tracking completed successfully.
+2026-09-18 02:27:52,287 | INFO | recommend | Recommendation requested: day=weekday, weather=Clear
+2026-09-18 02:27:52,377 | INFO | recommend | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 02:27:52,399 | INFO | recommend | 7612 repeated timestamps excluded from recommendation analysis.
+2026-09-18 02:27:52,400 | INFO | recommend | Recommendation dataset prepared: 40575 unique hourly records.
+2026-09-18 02:27:52,415 | INFO | recommend | Weather filter applied: Clear (9255 records).
+2026-09-18 02:27:52,421 | INFO | recommend | 3 lower-traffic travel windows identified.
+2026-09-18 02:27:52,423 | INFO | recommend | Travel recommendations saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/travel_recommendations.csv
+2026-09-18 02:27:52,423 | INFO | recommend | Traffic recommendation completed successfully.
+2026-09-18 02:31:32,422 | INFO | recommend | Recommendation requested: day=weekday, weather=Rain
+2026-09-18 02:31:32,509 | INFO | recommend | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 02:31:32,534 | INFO | recommend | 7612 repeated timestamps excluded from recommendation analysis.
+2026-09-18 02:31:32,536 | INFO | recommend | Recommendation dataset prepared: 40575 unique hourly records.
+2026-09-18 02:31:32,552 | INFO | recommend | Weather filter applied: Rain (3525 records).
+2026-09-18 02:31:32,557 | INFO | recommend | 3 lower-traffic travel windows identified.
+2026-09-18 02:31:32,559 | INFO | recommend | Travel recommendations saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/travel_recommendations.csv
+2026-09-18 02:31:32,559 | INFO | recommend | Traffic recommendation completed successfully.
+2026-09-18 02:32:13,047 | INFO | recommend | Recommendation requested: day=weekday, weather=Rain
+2026-09-18 02:32:13,137 | INFO | recommend | Part 3 dataset loaded successfully: 48187 rows, 36 columns
+2026-09-18 02:32:13,155 | INFO | recommend | 7612 repeated timestamps excluded from recommendation analysis.
+2026-09-18 02:32:13,157 | INFO | recommend | Recommendation dataset prepared: 40575 unique hourly records.
+2026-09-18 02:32:13,175 | INFO | recommend | Weather filter applied: Rain (3525 records).
+2026-09-18 02:32:13,176 | INFO | recommend | Average practical-hours traffic: 4789.60 vehicles.
+2026-09-18 02:32:13,176 | INFO | recommend | Average overnight traffic: 1057.56 vehicles.
+2026-09-18 02:32:13,180 | INFO | recommend | 3 practical lower-traffic travel windows identified.
+2026-09-18 02:32:13,182 | INFO | recommend | Travel recommendations saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/travel_recommendations.csv
+2026-09-18 02:32:13,182 | INFO | recommend | Traffic recommendation completed successfully.
+2026-09-18 02:35:58,552 | INFO | model_versioning | Model versioning started.
+2026-09-18 02:35:58,561 | INFO | model_versioning | Regression results loaded successfully.
+2026-09-18 02:35:58,562 | INFO | model_versioning | Model version table created.
+2026-09-18 02:35:58,564 | INFO | model_versioning | Model version table saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/model_versions.csv
+2026-09-18 02:35:58,566 | INFO | model_versioning | Model versioning completed successfully.
+2026-09-18 02:38:39,525 | INFO | deployment_model | Deployment model preparation started.
+2026-09-18 02:38:39,624 | INFO | deployment_model | Part 3 dataset loaded: 48187 rows, 36 columns.
+2026-09-18 02:38:39,629 | INFO | deployment_model | Deployment feature set prepared: 23 features.
+2026-09-18 02:38:39,635 | INFO | deployment_model | Training Random Forest deployment model v2.0.
+2026-09-18 02:38:42,831 | INFO | deployment_model | Deployment model training completed.
+2026-09-18 02:38:43,179 | INFO | deployment_model | Deployment model saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2.joblib
+2026-09-18 02:38:43,179 | INFO | deployment_model | Deployment feature list saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2_features.txt
+2026-09-18 02:38:43,179 | INFO | deployment_model | Deployment model preparation completed successfully.
+2026-09-18 02:44:01,949 | INFO | deployment_model | Deployment model preparation started.
+2026-09-18 02:44:02,045 | INFO | deployment_model | Part 3 dataset loaded: 48187 rows, 36 columns.
+2026-09-18 02:44:02,053 | INFO | deployment_model | Deployment feature set prepared: 23 features.
+2026-09-18 02:44:02,059 | INFO | deployment_model | Training Random Forest deployment model v2.0.
+2026-09-18 02:44:05,149 | INFO | deployment_model | Deployment model training completed.
+2026-09-18 02:44:05,497 | INFO | deployment_model | Deployment model saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2.joblib
+2026-09-18 02:44:05,498 | INFO | deployment_model | Deployment feature list saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2_features.txt
+2026-09-18 02:44:05,498 | INFO | deployment_model | Deployment model preparation completed successfully.
+2026-09-18 02:44:56,307 | INFO | api_app | Random Forest v2.0 model loaded successfully.
+2026-09-18 02:44:56,307 | INFO | api_app | Deployment model expects 23 features.
+2026-09-18 02:45:16,904 | INFO | api_app | Random Forest v2.0 model loaded successfully.
+2026-09-18 02:45:16,904 | INFO | api_app | Deployment model expects 23 features.
+2026-09-18 02:46:25,222 | INFO | deployment_model | Deployment model preparation started.
+2026-09-18 02:46:25,331 | INFO | deployment_model | Part 3 dataset loaded: 48187 rows, 36 columns.
+2026-09-18 02:46:25,340 | INFO | deployment_model | Deployment feature set prepared: 23 features.
+2026-09-18 02:46:25,346 | INFO | deployment_model | Training Random Forest deployment model v2.0.
+2026-09-18 02:46:29,352 | INFO | deployment_model | Deployment model training completed.
+2026-09-18 02:46:29,687 | INFO | deployment_model | Deployment model saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2.joblib
+2026-09-18 02:46:29,689 | INFO | deployment_model | Deployment feature list saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/models/traffic_random_forest_v2_features.txt
+2026-09-18 02:46:29,689 | INFO | deployment_model | Deployment model preparation completed successfully.
+2026-09-18 02:46:32,516 | INFO | api_app | Random Forest v2.0 model loaded successfully.
+2026-09-18 02:46:32,516 | INFO | api_app | Deployment model expects 23 features.
+2026-09-18 02:46:36,924 | INFO | api_app | Random Forest v2.0 model loaded successfully.
+2026-09-18 02:46:36,925 | INFO | api_app | Deployment model expects 23 features.
+2026-09-18 02:47:16,886 | INFO | api_app | Random Forest v2.0 model loaded successfully.
+2026-09-18 02:47:16,887 | INFO | api_app | Deployment model expects 23 features.
+2026-09-18 02:49:25,195 | INFO | api_app | Traffic prediction generated: 2916.78 vehicles.
+2026-09-18 02:49:28,103 | INFO | api_app | Traffic prediction generated: 2916.78 vehicles.
+2026-09-18 02:51:44,525 | INFO | monitor | Model monitoring simulation started.
+2026-09-18 02:51:44,618 | INFO | monitor | Monitoring dataset loaded: 48187 rows, 36 columns.
+2026-09-18 02:51:45,339 | INFO | monitor | Deployed Random Forest v2.0 model loaded successfully.
+2026-09-18 02:51:45,340 | INFO | monitor | Loaded 23 deployment features.
+2026-09-18 02:51:45,354 | INFO | monitor | Held-out monitoring dataset prepared: 9638 records.
+2026-09-18 02:51:45,354 | INFO | monitor | Reference monitoring period: 4819 records.
+2026-09-18 02:51:45,354 | INFO | monitor | Current monitoring period: 4819 records.
+2026-09-18 02:51:45,667 | INFO | monitor | Prediction-error drift remains within threshold.
+2026-09-18 02:51:45,670 | INFO | monitor | Monitoring results saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/monitoring_results.csv
+2026-09-18 02:51:45,670 | INFO | monitor | Monitoring status saved: /Users/patarachaisereerat/smart-city-traffic-capstone/part3_machine_learning/results/monitoring_status.txt
+2026-09-18 02:51:45,670 | INFO | monitor | Model monitoring simulation completed successfully.

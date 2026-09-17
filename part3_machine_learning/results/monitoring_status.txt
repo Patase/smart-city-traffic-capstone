@@ -1,0 +1,6 @@
+Status: PASS
+Interpretation: Normal
+Reference MAE: 274.56
+Current MAE: 265.36
+MAE drift: -3.35%
+Alert threshold: 25.00%

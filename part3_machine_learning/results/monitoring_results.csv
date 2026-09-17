@@ -1,0 +1,5 @@
+Metric,Value
+Reference MAE,274.5637808254034
+Current MAE,265.356227482485
+MAE Drift Percent,-3.35352074306317
+Alert Threshold Percent,25.0
